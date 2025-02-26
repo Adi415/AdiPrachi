@@ -13,6 +13,6 @@ form.addEventListener('submit', (e) => {
         resultDiv.innerHTML = 'Baby';
         window.location.href = nextPageUrl; // Redirect to new page
     } else {
-        resultDiv.innerHTML = 'Tum Prachi nhi ho.kon ho tum kahan h meri Prachi🥺🥺';
+        resultDiv.innerHTML = 'Please enter right name. You are not allowed to open this Book';
     }
 });
